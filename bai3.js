@@ -6,7 +6,7 @@ let a = [1,3,7,5,9,17,19,15,14,16];
 let b=[];
 let total = 0;
 for (let i = 0; i < a.length; i++) {
-    for (let j = 2; j < Math.sqrt(a[i]); j++) {
+    for (let j = 2; j <= Math.sqrt(a[i]); j++) {
         if (a[i]%2 == 0){
             continue;
         }else {
